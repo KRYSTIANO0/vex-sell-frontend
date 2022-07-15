@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
+.announcement-list-item {
+  position: relative;
+  background-color: #ffffff;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-box-shadow: 0.1px 0.1px 24px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0.1px 0.1px 24px 0px rgba(0, 0, 0, 0.3);
+}
+
+.announcement-item {
+  font-family: Geomanist, Arial, sans-serif;
+  color: #002f34;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.announcement-item img {
+  padding: 0.5rem;
+  width: 12rem;
+  height: 12rem;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+.announcement-item .about {
+  padding: 1rem;
+  width: 100%;
+  position: relative;
+}
+
+.announcement-item .about .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.announcement-item .about .info h1 {
+  text-align: left;
+  font-size: 1.5rem !important;
+  font-weight: 300;
+}
+
+.announcement-item .about .info .price-text {
+  font-size: 16px;
+}
+
+.announcement-item .about #address-info {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  left: 1rem;
+}
+
+.announcement-item .about .like {
+  font-size: 2rem;
+  -webkit-transition: linear 0.3s;
+  transition: linear 0.3s;
+}
+
+.announcement-item .about .like:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.announcement-item:hover {
+  cursor: pointer;
+}
+
+.announcement-item:hover .about .info h1 {
+  background-color: #002f34;
+  color: #ffffff;
+}
+
+.delete-btn-container {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.delete-btn-container .delete-btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: rgba(235, 141, 141, 0.521);
+}
+
+.delete-btn-container .delete-btn:hover {
+  cursor: pointer;
+  background-color: #eb8d8d;
+}
+
+@media screen and (min-width: 900px) {
+  .announcement-item img {
+    width: 15rem;
+    height: 15rem;
+  }
+}
+/*# sourceMappingURL=AnnouncementItem.module.css.map */

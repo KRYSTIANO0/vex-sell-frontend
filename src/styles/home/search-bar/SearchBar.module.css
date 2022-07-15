@@ -1,0 +1,127 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .form {
+  position: relative;
+}
+
+.container .form input {
+  padding: 1rem;
+}
+
+.container .form input:focus + label span {
+  -webkit-transform: translateY(-255%);
+          transform: translateY(-255%);
+}
+
+.container .form input:focus + label::before {
+  -webkit-transform: translateY(-250%);
+          transform: translateY(-250%);
+}
+
+.container .form input:focus + label::after {
+  -webkit-transform: translateY(250%);
+          transform: translateY(250%);
+}
+
+.container .form label {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container .form label::before {
+  -webkit-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #424242;
+}
+
+.container .form label::after {
+  -webkit-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #424242;
+}
+
+.container .form label span {
+  -webkit-transition: linear 0.3s;
+  transition: linear 0.3s;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container .filled-form {
+  font-size: 2rem;
+}
+
+.container .filled-form label span {
+  -webkit-transform: translateY(-215%);
+          transform: translateY(-215%);
+}
+
+.container a h1 {
+  height: 3.5rem;
+  padding: 0 1rem;
+  background-color: #bb86fc;
+  line-height: 3.5rem;
+}
+
+.container a h1:hover {
+  background-color: #424242;
+  color: white;
+}
+
+@media screen and (min-width: 700px) {
+  .container {
+    padding-top: 1rem;
+  }
+  .container .form {
+    width: 50%;
+    padding: 1.3rem;
+  }
+  .container .form input {
+    padding: 1rem;
+  }
+  .container .form input:focus + label span {
+    -webkit-transform: translateY(-355%);
+            transform: translateY(-355%);
+  }
+  .container .filled-form label span {
+    -webkit-transform: translateY(-315%);
+            transform: translateY(-315%);
+  }
+  .container a h1 {
+    height: 6.1rem;
+    line-height: 6.1rem;
+    font-size: 1.6rem;
+  }
+}
+/*# sourceMappingURL=SearchBar.module.css.map */

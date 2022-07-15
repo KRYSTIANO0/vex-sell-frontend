@@ -1,0 +1,61 @@
+.navbar {
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.navbar .desktop-navbar {
+  display: none;
+}
+
+@media screen and (min-width: 700px) {
+  .navbar {
+    background-color: #424242;
+  }
+  .navbar #mobile-logo {
+    display: none;
+  }
+  .navbar .desktop-navbar {
+    display: block;
+  }
+  .navbar .desktop-navbar .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .navbar .desktop-navbar .container .buttons-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar .desktop-navbar .container .buttons-container svg {
+    font-size: 3rem;
+    color: black;
+    margin-right: 1rem;
+  }
+  .navbar .desktop-navbar .container .buttons-container svg:hover {
+    color: #bb86fc;
+  }
+  .navbar .desktop-navbar .container .buttons-container button p {
+    font-size: 1.8rem;
+  }
+  .navbar .desktop-navbar .container .buttons-container .logout-div {
+    padding-left: 1rem;
+  }
+  .navbar .desktop-navbar .container .buttons-container .logout-div button {
+    background-color: rgba(255, 0, 0, 0.267);
+  }
+  .navbar .desktop-navbar .container .buttons-container .logout-div button:hover {
+    background-color: rgba(255, 0, 0, 0.467);
+  }
+}
+/*# sourceMappingURL=Navbar.module.css.map */

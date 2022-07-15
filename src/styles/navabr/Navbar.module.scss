@@ -1,0 +1,53 @@
+.navbar {
+	text-align: center;
+	padding: 1rem;
+	margin-bottom: 2rem;
+	.desktop-navbar {
+		display: none;
+	}
+}
+
+//media quries
+@media screen and(min-width:700px) {
+	.navbar {
+		background-color: #424242;
+		#mobile-logo {
+			display: none;
+		}
+		.desktop-navbar {
+			display: block;
+			.container {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+
+				.buttons-container {
+					display: flex;
+					align-items: center;
+					svg {
+						font-size: 3rem;
+						color: black;
+						margin-right: 1rem;
+						&:hover {
+							color: #bb86fc;
+						}
+					}
+					button {
+						p {
+							font-size: 1.8rem;
+						}
+					}
+					.logout-div {
+						padding-left: 1rem;
+						button {
+							background-color: rgba(255, 0, 0, 0.267);
+							&:hover {
+								background-color: rgba(255, 0, 0, 0.467);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

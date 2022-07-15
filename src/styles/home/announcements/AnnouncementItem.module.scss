@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+.announcement-list-item {
+	position: relative;
+	background-color: #ffffff;
+	margin-bottom: 1rem;
+	border-radius: 3px;
+	cursor: pointer;
+	box-shadow: 0.1px 0.1px 24px 0px rgba(0, 0, 0, 0.3);
+}
+
+.announcement-item {
+	font-family: Geomanist, Arial, sans-serif;
+	color: #002f34;
+	display: flex;
+	img {
+		padding: 0.5rem;
+		width: 12rem;
+		height: 12rem;
+		object-fit: scale-down;
+	}
+
+	.about {
+		padding: 1rem;
+		width: 100%;
+		position: relative;
+		.info {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			h1 {
+				text-align: left;
+				font-size: 1.5rem !important;
+				font-weight: 300;
+			}
+			.price-text {
+				font-size: 16px;
+			}
+		}
+		#address-info {
+			position: absolute;
+			bottom: 1rem;
+			right: 1rem;
+			left: 1rem;
+		}
+		.like {
+			font-size: 2rem;
+			transition: linear 0.3s;
+			&:hover {
+				transform: scale(1.2);
+			}
+		}
+	}
+	&:hover {
+		cursor: pointer;
+		.about {
+			.info {
+				h1 {
+					background-color: #002f34;
+					color: #ffffff;
+				}
+			}
+		}
+	}
+}
+.delete-btn-container {
+	position: absolute;
+	bottom: 1rem;
+	right: 1rem;
+	.delete-btn {
+		text-transform: uppercase;
+		font-weight: 600;
+		padding: 0.5rem;
+		border-radius: 5px;
+		background-color: rgba(235, 141, 141, 0.521);
+		&:hover {
+			cursor: pointer;
+			background-color: rgb(235, 141, 141);
+		}
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.announcement-item {
+		img {
+			width: 15rem;
+			height: 15rem;
+		}
+	}
+}

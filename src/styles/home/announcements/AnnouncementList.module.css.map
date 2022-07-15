@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAClC,AAAA,kBAAkB,CAAC;IAClB,WAAW,EAAE,IAAI;IACjB,YAAY,EAAE,IAAI;IAClB,KAAK,EAAE,GAAG;GACV",
+    "sources": [
+        "AnnouncementList.module.scss"
+    ],
+    "names": [],
+    "file": "AnnouncementList.module.css"
+}

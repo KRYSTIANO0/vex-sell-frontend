@@ -1,0 +1,25 @@
+.button-ui {
+	padding: 1rem;
+	background-color: #bb86fc;
+	width: 100%;
+	p {
+		margin: 0;
+	}
+	&:hover {
+		background-color: #9a58eb;
+		cursor: pointer;
+		p {
+			color: whitesmoke;
+		}
+	}
+}
+
+.button-ui :disabled,
+[disabled] {
+	background-color: #bb86fc48;
+	cursor: not-allowed;
+	p {
+		color: rgba(0, 0, 0, 0.384) !important;
+	}
+}
+/*# sourceMappingURL=Button.module.css.map */

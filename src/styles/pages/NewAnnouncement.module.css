@@ -1,0 +1,21 @@
+.new-announcement-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.new-announcement-container .form-container {
+  padding: 2rem 0;
+  background-color: #f2f4f5;
+}
+
+@media screen and (min-width: 1000px) {
+  .new-announcement-container {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .new-announcement-container .form-container {
+    background-color: #ffffff;
+  }
+}
+/*# sourceMappingURL=NewAnnouncement.module.css.map */

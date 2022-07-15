@@ -1,0 +1,16 @@
+.acc-info {
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	margin-bottom: 5rem;
+	.content {
+		.about {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 1rem;
+			h1 {
+				font-size: 1.5rem;
+			}
+		}
+	}
+}

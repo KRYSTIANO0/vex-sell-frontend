@@ -1,0 +1,47 @@
+.menu-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5rem;
+  -webkit-box-shadow: 0 -1px 5px 0 #636363;
+          box-shadow: 0 -1px 5px 0 #636363;
+  background-color: white;
+}
+
+.menu-bar .menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.menu-bar .menu-list li {
+  color: black;
+  font-size: 2.7rem;
+  text-align: center;
+}
+
+.menu-bar .menu-list li .big {
+  font-size: 4rem;
+  padding: 0rem;
+}
+
+.menu-bar .menu-list li h1 {
+  text-align: center;
+}
+
+.menu-bar a:visited {
+  color: black;
+}
+
+@media screen and (min-width: 700px) {
+  .menu-bar {
+    display: none;
+  }
+}
+/*# sourceMappingURL=MenuBar.module.css.map */

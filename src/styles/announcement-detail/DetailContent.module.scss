@@ -1,0 +1,63 @@
+.detail-container {
+	.detail-image {
+		img {
+			width: 100%;
+			object-fit: cover;
+		}
+	}
+	.about {
+		font-family: Geomanist, Arial, sans-serif;
+		color: #002f34;
+		padding: 1rem;
+		.title {
+			padding-top: 1rem;
+			font-weight: normal;
+			text-transform: uppercase;
+			font-size: 1.7rem;
+		}
+		.description {
+			h1 {
+				font-size: 1.6rem;
+			}
+			p {
+				text-transform: capitalize;
+				font-size: 1.6rem;
+			}
+		}
+		.price-text {
+			font-family: 'Anek Latin', sans-serif;
+			font-size: 2.6rem;
+			margin-bottom: 2rem;
+		}
+	}
+}
+.creator {
+	margin-top: 5rem;
+	h1 {
+		font-size: 1.6rem;
+		padding-left: 1rem;
+	}
+}
+
+//media quries
+
+@media screen and (min-width: 500px) {
+	.detail-container {
+		.detail-image {
+			text-align: center;
+			img {
+				width: 40rem;
+			}
+		}
+		.about {
+			margin-left: auto;
+			margin-right: auto;
+			width: 60rem;
+		}
+	}
+	.creator {
+		margin-left: auto;
+		margin-right: auto;
+		width: 60rem;
+	}
+}

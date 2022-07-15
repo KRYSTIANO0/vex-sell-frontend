@@ -1,0 +1,29 @@
+.category-item {
+  margin: 1rem 0;
+}
+
+.category-item a .category-icon {
+  width: 7rem;
+  height: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+}
+
+.category-item a .category-icon img {
+  width: 100%;
+}
+
+.category-item a p {
+  margin-top: 0.7rem;
+}
+/*# sourceMappingURL=CategorySlider.module.css.map */

@@ -1,0 +1,30 @@
+.creator-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+	.creator-info {
+		text-align: center;
+		img {
+			width: 6rem;
+		}
+		h1 {
+			font-family: Geomanist, Arial, sans-serif;
+			color: #002f34;
+			font-size: 2rem;
+			padding: 0;
+		}
+	}
+	.creator-action {
+		width: 25%;
+		h1 {
+			height: 1rem;
+		}
+		button {
+			border-radius: 5px;
+			p {
+				font-size: 1.3rem !important;
+			}
+		}
+	}
+}

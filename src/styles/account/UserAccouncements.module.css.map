@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,uBAAuB,CAAC;EACvB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;CAY7B;;AAdD,AAGC,uBAHsB,CAGtB,EAAE,CAAC;EACF,KAAK,EAAE,IAAI;CACX;;AALF,AAOC,uBAPsB,CAOtB,MAAM,CAAC;EACN,aAAa,EAAE,GAAG;EAClB,KAAK,EAAE,GAAG;CAIV;;AAbF,AAUE,uBAVqB,CAOtB,MAAM,CAGL,CAAC,CAAC;EACD,SAAS,EAAE,MAAM;CACjB",
+    "sources": [
+        "UserAccouncements.module.scss"
+    ],
+    "names": [],
+    "file": "UserAccouncements.module.css"
+}

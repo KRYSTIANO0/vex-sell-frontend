@@ -1,0 +1,40 @@
+{
+	"categories": [
+		{
+			"id": "cb24db10-3630-430e-9afb-846492bf5ab8",
+			"name": "motorization",
+			"color": "#ffce32",
+			"image": "./assets/categories/motorization-img.png"
+		},
+		{
+			"id": "bcc4c3d3-25a5-438c-81ca-e60f913c323c",
+			"name": "sport",
+			"color": "rgb(35, 229, 219)",
+			"image": "./assets/categories/sport-img.png"
+		},
+		{
+			"id": "ed83f0a6-ea1e-4855-9967-a8a3911b5992",
+			"name": "fashion",
+			"color": "rgb(200, 248, 246)",
+			"image": "./assets/categories/faschion-img.png"
+		},
+		{
+			"id": "09d2425b-dc74-42d7-826b-efc4343e7cbc",
+			"name": "work",
+			"color": "rgb(255, 86, 54)",
+			"image": "./assets/categories/work-img.png"
+		},
+		{
+			"id": "a77e9d6a-71cb-402c-a26d-c156f99169d7",
+			"name": "home",
+			"color": "rgb(255, 246, 217)",
+			"image": "./assets/categories/home-img.png"
+		},
+		{
+			"id": "a2f4aadf-2dab-4f70-9193-b7342f55c008",
+			"name": "music",
+			"color": "rgb(255, 206, 50)",
+			"image": "./assets/categories/music-img.png"
+		}
+	]
+}

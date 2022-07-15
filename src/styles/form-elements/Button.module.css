@@ -1,0 +1,30 @@
+.button-ui {
+  padding: 1rem;
+  background-color: #bb86fc;
+  width: 100%;
+}
+
+.button-ui p {
+  margin: 0;
+}
+
+.button-ui:hover {
+  background-color: #9a58eb;
+  cursor: pointer;
+}
+
+.button-ui:hover p {
+  color: whitesmoke;
+}
+
+.button-ui :disabled,
+[disabled] {
+  background-color: #bb86fc48;
+  cursor: not-allowed;
+}
+
+.button-ui :disabled p,
+[disabled] p {
+  color: rgba(0, 0, 0, 0.384) !important;
+}
+/*# sourceMappingURL=Button.module.css.map */

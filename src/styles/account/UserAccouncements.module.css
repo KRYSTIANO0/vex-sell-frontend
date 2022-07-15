@@ -1,0 +1,22 @@
+.confirm-delete-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.confirm-delete-buttons h1 {
+  width: 2rem;
+}
+
+.confirm-delete-buttons button {
+  border-radius: 5px;
+  width: 20%;
+}
+
+.confirm-delete-buttons button p {
+  font-size: 1.4rem;
+}
+/*# sourceMappingURL=UserAccouncements.module.css.map */

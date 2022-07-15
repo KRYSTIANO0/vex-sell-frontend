@@ -1,0 +1,15 @@
+.confirm-delete-buttons {
+	display: flex;
+	justify-content: space-evenly;
+	h1 {
+		width: 2rem;
+	}
+
+	button {
+		border-radius: 5px;
+		width: 20%;
+		p {
+			font-size: 1.4rem;
+		}
+	}
+}

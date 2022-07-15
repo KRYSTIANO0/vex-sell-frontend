@@ -1,0 +1,115 @@
+.container {
+  padding: 1.5rem 0;
+}
+
+.input-div {
+  position: relative;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-div select {
+  width: 100%;
+}
+
+.input-div input,
+.input-div textarea,
+.input-div select {
+  width: 100%;
+  padding: 1rem;
+}
+
+.input-div input:focus + label span,
+.input-div textarea:focus + label span,
+.input-div select:focus + label span {
+  -webkit-transform: translateY(-255%);
+          transform: translateY(-255%);
+}
+
+.input-div input:focus + label::before,
+.input-div textarea:focus + label::before,
+.input-div select:focus + label::before {
+  -webkit-transform: translateY(-250%);
+          transform: translateY(-250%);
+}
+
+.input-div input:focus + label::after,
+.input-div textarea:focus + label::after,
+.input-div select:focus + label::after {
+  -webkit-transform: translateY(250%);
+          transform: translateY(250%);
+}
+
+.input-div label {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.input-div label::before {
+  -webkit-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #424242;
+}
+
+.input-div label::after {
+  -webkit-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #424242;
+}
+
+.input-div label span {
+  -webkit-transition: linear 0.3s;
+  transition: linear 0.3s;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  font-family: 'Raleway', sans-serif;
+}
+
+.error-text {
+  padding-top: 1rem;
+  color: red;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.filled-input {
+  font-size: 1rem;
+}
+
+.filled-input label span {
+  -webkit-transform: translateY(-215%);
+          transform: translateY(-215%);
+}
+
+.textarea-label span {
+  -webkit-transform: translateY(-725%) !important;
+          transform: translateY(-725%) !important;
+}
+
+.select-label span {
+  -webkit-transform: translateY(-235%) !important;
+          transform: translateY(-235%) !important;
+}
+/*# sourceMappingURL=Input.module.css.map */

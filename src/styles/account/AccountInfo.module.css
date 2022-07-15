@@ -1,0 +1,23 @@
+.acc-info {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  margin-bottom: 5rem;
+}
+
+.acc-info .content .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+}
+
+.acc-info .content .about h1 {
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=AccountInfo.module.css.map */

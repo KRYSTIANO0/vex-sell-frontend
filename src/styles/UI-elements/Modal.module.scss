@@ -1,0 +1,25 @@
+.modal {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 100;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(48, 48, 48, 0.699);
+
+	header {
+		background-color: #bb86fc;
+		padding: 1rem 4rem;
+		h1 {
+			margin: 0;
+		}
+	}
+	.content {
+		padding: 1rem;
+		text-align: center;
+		background-color: white;
+	}
+}

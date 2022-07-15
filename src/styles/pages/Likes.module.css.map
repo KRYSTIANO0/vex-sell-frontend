@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACV,UAAU,EAAE,MAAM;CASlB;;AAVD,AAEC,UAFS,CAET,UAAU,CAAC;EACV,OAAO,EAAE,WAAW;EACpB,MAAM,EAAE,eAAe;EACvB,aAAa,EAAE,GAAG;EAClB,cAAc,EAAE,SAAS;EACzB,WAAW,EAAE,wBAAwB;EACrC,SAAS,EAAE,MAAM;CACjB",
+    "sources": [
+        "Likes.module.scss"
+    ],
+    "names": [],
+    "file": "Likes.module.css"
+}

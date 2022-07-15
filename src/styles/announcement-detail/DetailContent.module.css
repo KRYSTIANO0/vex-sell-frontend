@@ -1,0 +1,62 @@
+.detail-container .detail-image img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.detail-container .about {
+  font-family: Geomanist, Arial, sans-serif;
+  color: #002f34;
+  padding: 1rem;
+}
+
+.detail-container .about .title {
+  padding-top: 1rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+}
+
+.detail-container .about .description h1 {
+  font-size: 1.6rem;
+}
+
+.detail-container .about .description p {
+  text-transform: capitalize;
+  font-size: 1.6rem;
+}
+
+.detail-container .about .price-text {
+  font-family: 'Anek Latin', sans-serif;
+  font-size: 2.6rem;
+  margin-bottom: 2rem;
+}
+
+.creator {
+  margin-top: 5rem;
+}
+
+.creator h1 {
+  font-size: 1.6rem;
+  padding-left: 1rem;
+}
+
+@media screen and (min-width: 500px) {
+  .detail-container .detail-image {
+    text-align: center;
+  }
+  .detail-container .detail-image img {
+    width: 40rem;
+  }
+  .detail-container .about {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60rem;
+  }
+  .creator {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60rem;
+  }
+}
+/*# sourceMappingURL=DetailContent.module.css.map */

@@ -1,0 +1,52 @@
+.content {
+  position: relative;
+  margin-bottom: 8rem;
+}
+
+.content .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1rem;
+}
+
+.content .header:after {
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  right: 0;
+  content: '';
+  height: 2px;
+  background-color: #424242;
+}
+
+.content .header:before {
+  position: absolute;
+  -webkit-transition: ease-in 0.4s;
+  transition: ease-in 0.4s;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  content: '';
+  height: 4px;
+  background-color: #424242;
+}
+
+.content .underline:before {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+@media screen and (min-width: 700px) {
+  .container {
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/*# sourceMappingURL=Auth.module.css.map */
