@@ -1,1 +1,10 @@
-duopa
+![mobile-login](https://user-images.githubusercontent.com/92797592/179270095-f09e410a-1f84-414c-854f-d6e15fc46c18.jpg)
+![mobile-login](https://user-images.githubusercontent.com/92797592/179270095-f09e410a-1f84-414c-854f-d6e15fc46c18.jpg)
+[README.md](https://github.com/KRYSTIANO0/vex-sell-frontend/files/9122614/README.md)
+[README.md](https://github.com/KRYSTIANO0/vex-sell-frontend/files/9122614/README.md)
+![vexsell-add](https://user-images.githubusercontent.com/92797592/179270102-c492db35-7756-4e63-9a62-43c7a9d1b594.png)
+![vexsell-add](https://user-images.githubusercontent.com/92797592/179270102-c492db35-7756-4e63-9a62-43c7a9d1b594.png)
+![vexsell-announcements](https://user-images.githubusercontent.com/92797592/179270103-2764745d-4f78-4f40-bfcd-66fb5985ddd7.png)
+![vexsell-announcements](https://user-images.githubusercontent.com/92797592/179270103-2764745d-4f78-4f40-bfcd-66fb5985ddd7.png)
+![mobile-ann](https://user-images.githubusercontent.com/92797592/179270104-85fb88cb-c180-446d-8b7a-dd5ddbfdb40e.jpg)
+![mobile-ann](https://user-images.githubusercontent.com/92797592/179270104-85fb88cb-c180-446d-8b7a-dd5ddbfdb40e.jpg)
