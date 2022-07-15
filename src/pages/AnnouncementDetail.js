@@ -19,7 +19,6 @@ const AnnouncementDetail = () => {
 		const getAnnouncementById = async () => {
 			try {
 				const responseData = await sendRequest(`/api/announcement/${announcementId}`)
-				console.log(responseData)
 				setAnnouncement(responseData.announcement)
 			} catch (error) {
 				console.log(error)

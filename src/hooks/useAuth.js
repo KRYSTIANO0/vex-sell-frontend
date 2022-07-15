@@ -6,7 +6,6 @@ const useAuth = () => {
 
 	const user = useSelector(state => state.user)
 	const { token, expirationDate } = user
-
 	let logOutTimer
 
 	const autoLogin = () => {
@@ -24,9 +23,9 @@ const useAuth = () => {
 		}
 	}
 	const autoLogout = () => {
-		if (token) {
+		if (token && expirationDate) {
 			const remainingTime = new Date(expirationDate).getTime() - new Date().getTime()
-			logOutTimer = setTimeout(dispatch(userAction.logout()), remainingTime)
+			logOutTimer = setTimeout(dispatch(userAction.logout), remainingTime)
 		} else {
 			clearTimeout(logOutTimer)
 		}
