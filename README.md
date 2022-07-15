@@ -13,11 +13,11 @@ The application has authorization. To implement it I used libraries such as:
 
 ### Desktop
 
-<img src='vexsell-announcements.png' width='50%' align='left'/><img src='vexsell-add.png' width='50%' align='right'/>
+<img src='vexsell-announcements.png' width='50%'/><img src='vexsell-add.png' width='50%'/>
 
 ### Mobile
 
-<img src='mobile-login.jpg' width='20%' align='left'/><img src='mobile-ann.jpg' width='20%' align='left'/>
+<img src='mobile-login.jpg' width='20%' /><img src='mobile-ann.jpg' width='20%'/>
 
 ## :checkered_flag:GETTING STARTED
 
