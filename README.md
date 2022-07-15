@@ -7,7 +7,11 @@ The application has authorization. To implement it I used libraries such as:
 
 - bcryptjs - for password security on the database side [MongoDB]
 
-- jsonwebtoken - to generate a login token  
+- jsonwebtoken - to generate a login token 
+
+## :link:DEMO
+ Feel free to add announcement! :D
+-> https://vexsell.netlify.app/ <-
 
 ## :camera:SCREENSHOTS
 
