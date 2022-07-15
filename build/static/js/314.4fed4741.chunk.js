@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkfrontend=self.webpackChunkfrontend||[]).push([[314],{314:function(e,n,t){t.r(n);t(2791);var r=t(184);n.default=function(){return(0,r.jsxs)("div",{style:{textAlign:"center",fontSize:"3.8rem"},className:"title-text",children:["comming soon",(0,r.jsx)("br",{}),"more on my github"]})}}}]);
-//# sourceMappingURL=314.4fed4741.chunk.js.map
